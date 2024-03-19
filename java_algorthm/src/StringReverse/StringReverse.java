@@ -1,4 +1,4 @@
-package study1;
+package StringReverse;
 
 public class StringReverse {
     public static void main(String[] args) {

@@ -5,6 +5,17 @@ import java.util.Scanner;
 public class BackJoon_2480 {
 
     public static void main(String[] args) {
+
+        // 1 ~ 6 까지 눈을 가진 3개의 주사위를 던진다.
+        // 같은 눈이 3개가 나오면 10000원 + (같은눈) X 1000
+        // 같은 눈이 2개가 나오면 1000원 + (같은눈) X 100
+        // 모든 다른 눈이 나오면 (가장 큰 눈) X 100
+
+        // 2,2,2 주어지면 상금은 10000 + 2 X 1000 = 12000원
+        // 3,3,6 주어지면 상금은 1000 + 3 X100 = 1300원
+        // 6,2,5 주어지면 가증 큰값 6 X 100 = 600
+
+
         Scanner in = new Scanner(System.in);
 
         int a, b, c;
@@ -58,4 +69,4 @@ public class BackJoon_2480 {
         }
     }
 }
-}
+

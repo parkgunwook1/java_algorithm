@@ -7,7 +7,7 @@ import java.util.List;
 public class ArrayListTest {
     public static void main(String[] args) {
 
-        List<String> listA = new ArrayList<String>();
+        List<String> listA = new ArrayList<>();
 
         // add 값 추가.
         listA.add("김삿갓");

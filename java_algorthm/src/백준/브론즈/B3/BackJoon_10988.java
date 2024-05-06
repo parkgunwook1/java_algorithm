@@ -7,6 +7,7 @@ public class BackJoon_10988 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+
         String str = sc.next();
         sc.close();
         int len = str.length();

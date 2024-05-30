@@ -1,4 +1,4 @@
-package project;
+package com.module.module.account_1;
 
 /* 가계부 관리
 *

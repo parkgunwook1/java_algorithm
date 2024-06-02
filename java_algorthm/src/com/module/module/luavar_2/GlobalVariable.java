@@ -26,6 +26,8 @@ public class GlobalVariable {
             e.printStackTrace();
         }
         }
+
+
         private String setVar(String key, String value) throws SQLException {
 
             GlobalVariableManager globalVariableManager = new GlobalVariableManager(con);

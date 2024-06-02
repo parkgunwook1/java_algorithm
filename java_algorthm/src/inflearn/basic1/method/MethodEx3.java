@@ -1,4 +1,4 @@
-package inflearn;
+package inflearn.basic1.method;
 
 public class MethodEx3 {
     public static void main(String[] args) {

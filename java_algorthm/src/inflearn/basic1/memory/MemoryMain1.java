@@ -1,6 +1,6 @@
 package inflearn.basic1.memory;
 
-public class Study {
+public class MemoryMain1 {
 
     /* 자바 메모리 구조
     *
@@ -40,4 +40,21 @@ public class Study {
     * "큐"는 FIFO 이다. 먼저 들어간 것이 먼저 나온다. 들어가는 입구와 나가는 입구가 따로 있다고 생각하면 된다.
     *
     * */
+
+    public static void main(String[] args) {
+        System.out.println("main statt");
+        method1(10);
+        System.out.println("main end");
+    }
+
+    static void method1(int m1) {
+        System.out.println("method1 start");
+        int cal = m1 * 2;
+        method2(cal);
+        System.out.println("method1 end");
+    }
+    static void method2(int m2) {
+        System.out.println("method2 start");
+        System.out.println("method2 end");
+    }
 }
